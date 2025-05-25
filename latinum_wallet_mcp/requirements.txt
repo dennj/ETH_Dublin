@@ -1,0 +1,5 @@
+mcp
+google-adk
+python-dotenv
+supabase
+resend
