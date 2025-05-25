@@ -20,9 +20,6 @@ With Latinum, all of that disappears. Agents can:
 
 This is just the beginning. In the coming years, most digital transactions—ordering groceries, booking a ride—will be made by agents on behalf of humans.
 
-🌐 [latinum.ai](https://latinum.ai)  
-📬 Contact: [dennj@latinum.ai](mailto:dennj@latinum.ai)
-
 ---
 
 ### 🧠 How It Works
