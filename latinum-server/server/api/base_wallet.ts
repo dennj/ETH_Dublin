@@ -4,7 +4,7 @@
 Base Mainnet Wallet API - Signs transactions for Base (Ethereum L2)
 
 Test with:
-curl -X POST http://localhost:3000/api/402wallet \
+curl -X POST http://localhost:3000/api/base_wallet \
   -H "Content-Type: application/json" \
   -d '{
     "targetWallet": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
@@ -19,10 +19,6 @@ import { ethers } from 'ethers'
 // const BASE_RPC_URL = 'https://mainnet.base.org'
 const BASE_RPC_URL = 'https://sepolia.base.org'
 const SEPOLIA_CHAIN_ID = 84532
-
-// 🔐 IMPORTANT: Replace with your wallet's private key (hex format with 0x prefix)
-// Example format: '0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef'
-// NEVER commit your private key to version control!
 
 const SECRET_PHRASE = 'HERE YOU NEED A SECRET PHRASE'
 const PRIVATE_KEY_HEX = ethers.Wallet.fromPhrase(SECRET_PHRASE).privateKey
